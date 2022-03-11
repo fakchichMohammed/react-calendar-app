@@ -171,6 +171,12 @@ export default function Calendar({
             />
           </div>
           <div className="form-group">
+                  <input type="text" name="title" placeholder="Title"/>
+          </div>
+          <div className="form-group">
+                  <input type="text" name="comment" placeholder="Comment"/>
+          </div>
+          <div className="form-group">
             <input type="submit" value="Add your event" />
           </div>
         </form>
